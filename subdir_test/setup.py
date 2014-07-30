@@ -7,5 +7,5 @@ setup(name='subdir_test',
     description='A test of subdirectory module installation with pip.',
     author='Alex Pearce',
     url='https://github.com/alexpearce/subdir_test',
-    packages=['subdir_test']
+    packages=['subdir_test', 'subdir_test.submodule']
 )
